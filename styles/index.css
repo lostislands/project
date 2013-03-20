@@ -1,0 +1,56 @@
+/* html */
+@import url(html.css);
+ul.links li {
+    display: inline;
+}
+/* frames */
+div.container {
+    width: 800px;
+    margin: 10px auto;
+    border: 1px black solid;
+    background-image: url(../images/pattern/sand_pattern.jpg);
+    background-repeat: repeat;
+}
+header {
+    width: 800px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+div.content {
+    width: 800px;
+    padding-bottom: 10px;
+}
+form.registry {
+    margin: 10px 30px 10px 10px;
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-width:30px;
+}
+form.login {
+    margin: 10px 15px 10px 0px; 
+    width: 180px;
+    float: right;
+    border-width: 30px;
+}
+footer {
+    clear: left;
+    width: 760px;
+    height: 20px;
+    padding: 10px 20px 10px 20px;
+}
+p.version {
+    float: left;
+    width: 160px;
+}
+ul.links {
+    float: right;
+    width: 600px;
+    text-align: right;
+}
+/* classes */
+
+
+/* links */
+
+

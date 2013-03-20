@@ -1,0 +1,64 @@
+/* css-reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul
+{
+  list-style-type: none;
+}
+/* html */
+body {
+    background-color: silver;
+    font-size: 0.9em;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+h1 {
+    font-size: 1.8em;
+    font-family: "Times New Roman", Times, Georgia, serif;
+    color: maroon;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 1.5em;
+    font-family: "Times New Roman", Times, Georgia, serif;
+    color: #840000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form>p {
+    clear:both;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+label {
+     float: left;
+     width: 90px;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 150px;
+}
+/* classes */
+.middle {
+    margin-top: 7px;
+}
+.paper {
+    padding-left:10px;
+    border-style: solid;
+    background-image: url(../images/pattern/background_pattern.png);
+    background-clip: padding-box;
+    background-repeat: repeat;
+    border-image-source: url(../images/pattern/border_pattern.png);
+    border-image-slice: 30; 
+    border-image-repeat: stretch;
+    -moz-border-image: url(../images/pattern/border_pattern.png) 30 round;
+}
+/* links */
+a {
+    text-decoration: none;
+    color: #A80000;
+}
+a:hover {
+    text-decoration: underline;
+}
