@@ -75,6 +75,7 @@
                 </p>
             </form>
 		</div>
+        
 		<!-- Footer -->
 		<footer>
             <p class="version">Version:0.0.1</p>
