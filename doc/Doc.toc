@@ -1,0 +1,25 @@
+\select@language {german}
+\contentsline {section}{\numberline {1}Einleitung}{3}
+\contentsline {section}{\numberline {2}Ziele}{3}
+\contentsline {section}{\numberline {3}Fraktionen}{3}
+\contentsline {subsection}{\numberline {3.1}Piraten}{3}
+\contentsline {subsection}{\numberline {3.2}H\IeC {\"a}ndler}{3}
+\contentsline {subsection}{\numberline {3.3}Marine}{4}
+\contentsline {section}{\numberline {4}Inseln}{4}
+\contentsline {section}{\numberline {5}Rohstoffe}{4}
+\contentsline {section}{\numberline {6}Punkte}{4}
+\contentsline {section}{\numberline {7}Geb\IeC {\"a}ude}{5}
+\contentsline {section}{\numberline {8}Produktion}{5}
+\contentsline {section}{\numberline {9}Karte}{5}
+\contentsline {section}{\numberline {10}Werft}{6}
+\contentsline {section}{\numberline {11}Forschung}{6}
+\contentsline {subsection}{\numberline {11.1}Effekte}{6}
+\contentsline {section}{\numberline {12}Schiffe}{7}
+\contentsline {subsection}{\numberline {12.1}\IeC {\"U}berblick}{7}
+\contentsline {subsection}{\numberline {12.2}Flottenauftr\IeC {\"a}ge}{7}
+\contentsline {subsection}{\numberline {12.3}Herstellungskosten}{8}
+\contentsline {subsection}{\numberline {12.4}Schiffseigenschaften}{8}
+\contentsline {section}{\numberline {13}Verteidigung}{8}
+\contentsline {section}{\numberline {14}Nachrichten}{8}
+\contentsline {section}{\numberline {15}Gilden}{9}
+\contentsline {section}{\numberline {16}Kampfhandlung}{9}

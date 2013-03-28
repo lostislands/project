@@ -1,0 +1,334 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+
+\title{Lostislands - Dokumentation}
+\author{Eric Greger}
+\date{10.03.2013}
+\pagebreak
+\maketitle
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{Einleitung}
+Lostislands ist ein Browsergame welches am Ende des 17. Jahrhunderts angesetzt ist. Das goldene Zeitalter der Piraterie und die Beziehung bzw Interaktion der 3 vorherrschenden Fraktionen (Piraten, Marine und Händler) bilden den Kern des Spiels. Dabei treten verschiedene Spieler als Repräsentant jeweils einer Fraktion gegeneinander an.
+
+\section{Ziele}
+Ziel des Spiels ist es als Repräsentant einer Fraktion, seine Machtstellung im Spiel möglichst stark auszubauen. 
+Dieses Ziel kann auf verschiedenen Wegen erreicht werden:
+\begin{itemize}
+\item Ausbau der Flotte (Kampfstärke)
+\item Maximierung des Einkommens / der Produktion
+\item Intensive Forschung
+\item Erfolgreicher Angriff auf anderer Fraktionen
+\item Gewinnbringender Handel
+\end{itemize}
+
+\section{Fraktionen}
+Der Spieler wählt bei der Registrierung die Fraktion aus, welche er im Spiel repräsentieren möchte. Die Zugehörigkeit zu einer Fraktion kann im Laufe des Spiels nicht mehr verändert werden. so bildet die Auswahl der Fraktion eine folgenschwere Entscheidung für den weiteren, persönlichen Spielverlauf.
+
+Die Fraktionen unterscheiden sich und bieten je nach Spielverhalten taktische Vorteile
+
+\subsection{Piraten}
+Die Piraten sind Seeräuber, welche durch Gewalt, Plünderung und Freiheitsberaubung ihre persönlichen Ziele durchsetzen.
+\begin{itemize}
+\item Hinterhalt - Anderen Fraktionen entdecken einen Piratenangriff erst verspätet
+\item Skrupellosigkeit - Piraten erhalten nach einem erfolgreichen Angriff 15\% extra Beute
+\end{itemize}
+
+\subsection{Händler}
+Die Händler sind freie Seefahrer welche durch Handel einen möglichst großen Gewinn erwirtschaften wollen. 
+\begin{itemize}
+\item günstige Winde - Die Schiffe der Händler sind 20\% schneller als die Schiffe der anderen Fraktionen
+\item Verhandlungsgeschick - Händler haben eine um 10\% erhöhte Produktion aller Rohstoffe
+\item Treibgut bergen - Der Händler kann Trümmer die auf See schwimmen bergen und diese wiederverwenden
+\end{itemize}
+
+\subsection{Marine}
+Die Marine sorgt für Recht und Ordnung auf See und jagt gezielt nach Piraten. 
+\begin{itemize}
+\item Kopfgeldjäger - Bei einem erfolgreichen Kampf gegen einen Piraten, erhalten Mitglieder der Marie 20\% der zerstörten Flotte als Kopfgeld
+\item Harter Schale - Die Schiffe sind so konzipiert um selbst nach einem Kampf nicht sofort zu sinken, die Verluste der Marine sind um 10\% reduziert
+\end{itemize}
+
+\section{Inseln}
+Der Spieler bekommt zu beginn des Spiels eine zufällige Insel zugewiesen auf der er seine Wirtschaft aufbaut. Später erhält er die Möglichkeit weitere Inseln zu besiedeln, wobei die Maximalanzahl bei 5 Inseln liegt.
+Eine Insel kann nicht durch Kämpfe übernommen werden. Nach einem Kampf an einer bestimmten Insel, treiben Trümmer der Schiffswracks im Meer, welche von Händlern mit Bergungsschiffen aufgesammelt werden können.
+
+\section{Rohstoffe}
+Gebäude / Schiffe und Forschung benötigen Rohstoffe. Diese werden auf einer Insel produziert und können zusätzlich durch Handel oder gewonnen Kämpfe erworben werden.
+
+Dabei wird grundsätzlich zwischen 4 Rohstoffen unterschieden:
+\begin{itemize}
+\item Gold - allgemeines Zahlungsmittel
+\item Holz - Grundrohstoff für Gebäude, Schiffe
+\item Eisen - wird für Waffen, Panzerung, Gebäude, Forschung,  Verteidigungsgebäude und Schiffe benötigt
+\item Nahrung - wird zur Rationierung auf Schiffsfahrten und zur Versorgung der Arbeiter am Bau benötigt
+\end{itemize}
+\section{Punkte}
+Spieler erhalten Punkte für die Fertigstellung von Gebäuden, Forschungen, Schiffen und Verteidigung.
+Sollten Schiffe im Kampf zerstört werden. Wie die Punkte verteilt werden, steht noch nicht fest.
+
+\pagebreak
+\section{Gebäude}
+Jeder Fraktion stehen 7 Gebäude mit folgenden Schwerpunkten zur Verfügung 
+\\[3mm]
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+Eigenschaft & Piraten & Händler & Marine  \\
+\hline 
+Goldproduktion & Unterschlupf & Handelskontor & Hauptquartier \\ 
+\hline
+Holzproduktion & Holzfällerhütte & Holzfällerhütte & Holzfällerhütte \\ 
+\hline
+Eisenproduktion  & Schmiede & Schmiede & Schmiede \\ 
+\hline 
+Nahrungsproduktion & Fischerhütter & Farm & Jagerhaus \\ 
+\hline 
+Schiffbau & Werft & Werft & Werft \\ 
+\hline 
+Forschung & Spionagelager & Erfinderhütte & Werkstatt \\ 
+\hline 
+Architektur & Handwerkslager & Architektenbüro & Bauhof \\ 
+\hline  
+\end{tabular} 
+\\[3mm]
+Dabei gibt es 3 Faktoren die Produktions-, Kosten- und Bauzeitentwicklung festlegen. In Abstimmung mit den Basiskosten steigen die Werte exponential an, dadurch muss der Spieler für hohe Gebäudestufen länger Rohstoffe ansparen als für niedrige Gebäudestufen.
+\\[3mm]
+Die Kosten und Basiswerte belaufen sich wie folgt.
+\\[3mm]
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline 
+Typ & Gold & Holz & Eisen & Nahrung & Bauzeit & Zeitfaktor & Kostenfaktor \\ 
+\hline 
+Goldproduktion & • & • & • & • & 20s & • & • \\ 
+\hline 
+Holzproduktion & • & • & • & • & 15s & • & • \\ 
+\hline 
+Eisenproduktion & • & • & • & • & 60s & • & • \\ 
+\hline 
+Nahrungsproduktion & • & • & • & • & 25s & • & • \\ 
+\hline 
+Schiffbau & • & • & • & • & 90s & • & • \\ 
+\hline 
+Forschung & • & • & • & • & 180s & • & • \\ 
+\hline 
+Architektur & • & • & • & • & 135s & • & • \\ 
+\hline 
+\end{tabular} 
+
+\section{Produktion}
+
+Die Produktion von Rohstoffen ist abhängig von der Ausbaustufe des jeweilige Gebäudes. Um den Betrieb der Gold, Holz und Eisenproduktion aufrecht zu halten wird kontinuierlich Nahrung benötigt. Sollte keine Nahrung mehr zur Verfügung stehen wird die Produktion halbiert. Die Nahrungsproduktion benötigt keine laufenden Rohstoffe und produziert ohne Gegenleistung.
+
+\section{Karte}
+Die Karte ermöglicht eine genaue Positionsbestimmung von Spielern und deren Inseln. Sie gibt einen Überblick über die Inselgruppen. Die Karte setzt sich aus 30*30 Inselgruppen zusammen, wobei jede Inselgruppe aus 5 Inseln besteht. Zusätzlich ermöglicht die Karte direkte Interaktion (Angriff/Nachricht senden) mit anderen Spielern bzw deren Inseln. Informationen zum Spieler wie dessen Gilde und dessen Platzierung werden auch angezeigt.
+
+\section{Werft}
+
+In der Werft werden alle Arten von Schiffen produziert. Jede neue Ausbaustufe der Werft verringert die Bauzeit von Schiffen auf \textbf{dieser} Insel. in einer Werft kann immer nur ein Schiff zu einem Zeitpunkt in Bau sein. Allerdings ist es möglich mehrere Baulisten in Form einer Warteschlange zu erstellen, sobald die nötigen Rohstoffe für ein Schiff oder mehrere zur Verfügung stehen. Ein Schiff ist einsatzbereit sobald es in der Werft fertiggestellt wurde.
+
+\section{Forschung}
+
+Forschungen dienen der Erschließung neuer Technologien um verschiedenen Anforderungen gerecht zu werden. 
+Wann eine Technologie verfügbar ist hängt von der Stufe der Forschungseinrichtung und der Stufe bereits bekannter Technologien ab. 
+\\[3mm]
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline 
+Name & Gold & Holz & Eisen & Nahrung & Dauer & Zeitfaktor & Kostenfaktor \\ 
+\hline 
+Koordination & • & • & • & • & • & • & •  \\ 
+\hline 
+Navigation & • & • & • & • & • & • & •  \\ 
+\hline 
+Segel & • & • & • & • & • & • & •  \\ 
+\hline 
+Holzverarbeitung & • & • & • & • & • & • & •  \\ 
+\hline 
+Metallbau & • & • & • & • & • & • & •  \\ 
+\hline 
+Pyrotechnik & • & • & • & • & • & • & •  \\ 
+\hline 
+Kanonenbau & • & • & • & • & • & • & •  \\ 
+\hline 
+Spionage & • & • & • & • & • & • & •  \\ 
+\hline 
+Kolonisierung & • & • & • & • & • & x10 & •  \\ 
+\hline 
+\end{tabular} 
+
+\subsection{Effekte}
+
+\begin{itemize}
+\item Koordination - koordiniert Flotten und ermöglicht so mehrere Flotten gleichzeitig zu verschicken
+\item Navigation - ermöglicht mit einer Flotte größere Strecken zurückzulegen
+\item Segelherstellung - erhöht die Qualität der Segel und damit die Geschwindigkeit der Schiffe
+\item Holzverarbeitung - wird für die Entwicklung neuer Schiffe benötigt und erhöht die Standhaftigkeit von Schiffen
+\item Metallbau - wird für Kanonenbau benötigt
+\item Pyrotechnik - erhöht die Durchschlagskraft von Kanonen und wird für Kanonenbau benötigt
+\item Kanonenbau - wird für die Entwicklung größerer Kriegsschiffe benötigt
+\item Spionage - ermöglicht die Spionage anderer Spieler
+\item Kolonisierung - wird benötigt um neue Inseln zu erschließen
+\end{itemize}
+
+\section{Schiffe}
+
+Schiffe werden in Form von Flotten eingesetzt um verschiedene Aufträge zwischen zwei Inseln auszuführen. Dabei unterscheidet man zwischen Transport- und Kriegsschiffen. Jeder Schiffstyp hat dabei bestimmt Eigenschaften.
+
+\subsection{Überblick}
+\begin{itemize}
+\item Lagerraum (Tonnen = t) 
+\item Geschwindigkeit (Knoten = kn)
+\item Angriffsstärke (Kanonenzahl)
+\item Verteidigung 
+\item Bauzeit
+\item Baukosten
+\item Transportkosten
+\end{itemize}
+
+Die Bauzeit, Angriffsstärke, Verteidigung und Geschwindigkeit können durch den Ausbau von Gebäuden und Forschung verbessert werden.
+
+\subsection{Flottenaufträge}
+
+Die einzelnen Schiffe dienen verschiedenen Auftragsarten und bestimmte Aufträge sind speziellen Schiffstypen vorbehalten. Jede Fraktion hat dabei Zugriff auf bestimmte Schiffstypen.
+\\[3mm]
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline 
+Name & Fraktion & Transport & Angriff & Verlegen & Bergung & Kolo. \\ 
+\hline 
+Kleines Transportschiff & P/H/M & • &  & • &  &  \\ 
+\hline 
+Kleine Fregatte & P/H/M & • & • & • &  &  \\ 
+\hline 
+Große Fregatte & P/H/M & • & • & • &  &  \\ 
+\hline 
+Kolonieschiff & P/H/M & • &  & • &  & • \\ 
+\hline 
+Galeone & P/M & • & • & • &  &  \\ 
+\hline 
+Schlachtschiff & P/M & • & • & • &  &  \\ 
+\hline 
+Linienschiff & P/M & • & • & • &  &  \\ 
+\hline 
+Handelsschiff & H & • &  & • &  &  \\ 
+\hline 
+Bergungsschiff & H & • &  & • & • &  \\ 
+\hline 
+\end{tabular} 
+\\[3mm]
+\subsection{Herstellungskosten}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+Name & Gold & Holz & Eisen & Nahrung & Bauzeit \\ 
+\hline 
+Kleines Transportschiff & • & • & • & • & • \\ 
+\hline 
+Kleine Fregatte & • & • & • & • & • \\ 
+\hline 
+Große Fregatte & • & • & • & • & • \\ 
+\hline 
+Kolonieschiff & • & • & • & • & • \\ 
+\hline 
+Galeone & • & • & • & • & • \\ 
+\hline 
+Schlachtschiff & • & • & • & • & • \\ 
+\hline 
+Linienschiff & • & • & • & • & • \\ 
+\hline 
+Handelsschiff & • & • & • & • & • \\ 
+\hline 
+Bergungsschiff & • & • & • & • & • \\ 
+\hline 
+\end{tabular}
+
+\subsection{Schiffseigenschaften}
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+Name & Laderaum & Geschw. & Angriffstärke & Verteididung  & Ration \\ 
+\hline 
+Kleines Transportschiff & • & • & • & • & • \\ 
+\hline 
+Kleine Fregatte & • & • & • & • & • \\ 
+\hline 
+Große Fregatte & • & • & • & • & • \\ 
+\hline 
+Kolonieschiff & • & • & • & • & • \\ 
+\hline 
+Galeone & • & • & • & •  & • \\ 
+\hline 
+Schlachtschiff & • & • & • & • & • \\ 
+\hline 
+Linienschiff & • & • & • & • & • \\ 
+\hline 
+Handelsschiff & • & • & • & • & • \\ 
+\hline 
+Bergungsschiff & • & • & • & • & • \\ 
+\hline 
+\end{tabular}
+
+\section{Verteidigung}
+
+Verteidigungsanlagen dienen dem Schutz einer Insel und können durch Ausbau des Architekturgebäudes zur Verfügung. Der Händler hat dabei eine größere Auswahl an Möglichkeiten als Piraten und Marine
+\\[3mm]
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline 
+Name & Gold & Holz & Eisen & Nahrung & Bauzeit & Schaden & Verteidigung \\ 
+\hline 
+Seemine & • & • & • & • & • & • & 1 \\ 
+\hline 
+Mauer & • & • & • & • & • & 0 & • \\ 
+\hline 
+Wachen & • & • & • & • & • & • & • \\ 
+\hline 
+Kanoniere & • & • & • & • & • & • & • \\ 
+\hline 
+Kanonenturm & • & • & • & • & • & • & • \\ 
+\hline 
+\end{tabular} 
+
+\section{Nachrichten}
+
+Über ein Nachrichtensystem sind Spieler in der Lage zu kommunizieren und erhalten Benachrichtigungen. Dabei gibt es verschiedene Nachrichtentypen
+
+\begin{itemize}
+\item normale Nachricht (Weiß)
+\item Spionagebericht (Blau)
+\item Gildennachricht (Grün)
+\item Kampfbericht (Rot)
+\end{itemize}
+
+\section{Gilden}
+
+Eine Gilde ist ein Zusammenschluss mehrerer Spieler. Sie bieten die Möglichkeit sich nach außen hin als Gemeinschaft zu präsentieren und über Rundmails zu Organisieren. Zudem sieht man welcher Spieler gerade online ist und welcher nicht. Der Gildenleiter hat dabei die Möglichkeit verschiedene Rollen und Berechtigungen anzulegen.
+
+Berechtigungen:
+\begin{itemize}
+\item Gilde auflösen
+\item Bewerbungen bearbeiten
+\item Mitglieder entfernen
+\item Rundmail schreiben
+\item Mitgliederliste einsehen
+\item Onlinestatus einsehen
+\item Äußere Präsentation ändern
+\item Innere Präsentation ändern
+\item Rollen bearbeiten
+\end{itemize}
+
+\section{Kampfhandlung}
+
+Sollte eine Flotte mit einem Angriffsauftrag seine Zielkoordinaten erreichen beginnt der Kampf. 
+dabei steht der Angreifer mit seiner Flotte dem Verteidiger mit seiner Flotte + Verteidigung gegenüber. 
+
+Seeminen nehmen eine besondere Rolle ein. Ein Teil von ihnen explodiert sobald sich eine Flotte mit Angriffscharakter die Insel erreicht. Der Schaden wird auf die Schiffe verteilt wobei maximal 30/%
+aller Minen explodieren können. Sollten die Schiffe danach noch einsatzbereit sein, kämpft Flotte gegen Flotte (beim Händler unterstützt auch noch die weitere Verteidigung)
+Über die Verrechnung des Kampfschadens muss noch nachgedacht werden. 
+
+\end{document}
